@@ -187,6 +187,27 @@
 .text-footer-2 {
   bottom: 30%;
 }
+.footer {
+  margin-top: 40px;
+  position: relative;
+  .text-footer-3 {
+    font-size: 1.1rem;
+    line-height: 1.67;
+    padding: 0 30%;
+    color: #f1f2f2;
+    position: absolute;
+    bottom: 18%;
+  }
+}
+.authorCarmen {
+  p {
+    display: inline;
+  }
+  strong {
+    padding-left: 10px;
+  }
+}
+
 
 @media only screen and (max-width: 1600px) {
   .text-footer-1 {
@@ -194,6 +215,9 @@
   }
   .text-footer-2 {
     bottom: 12%;
+  }
+  .text-footer-3 {
+    bottom: 3%;
   }
 }
 
@@ -267,6 +291,9 @@
   .text-footer-2 {
     top: 52%;
   }
+  .text-footer-3 {
+    top: 82%;
+  }
 }
 
 @media only screen and (max-width: 1200px) {
@@ -275,6 +302,9 @@
   }
   .text-footer-2 {
     top: 48%;
+  }
+  .text-footer-3 {
+    top: 78%;
   }
 }
 
@@ -299,6 +329,9 @@
   }
   .text-footer-2 {
     top: 55%;
+  }
+  .text-footer-3 {
+    top: 88%;
   }
 }
 
@@ -338,6 +371,9 @@
       height: 450px;
     }
   }
+  .text-footer-3 {
+    top: 66%;
+  }
 }
 
 @media only screen and (max-width: 675px) {
@@ -346,6 +382,9 @@
   }
   .text-footer-2 {
     top: 48%;
+  }
+  .text-footer-3 {
+    top: 82%;
   }
 }
 
@@ -454,6 +493,9 @@
       height: 325px;
     }
   }
+  .text-footer-3 {
+    top: 71%;
+  }
 }
 
 @media only screen and (max-width: 375px) {
@@ -462,6 +504,9 @@
   }
   .text-footer-2 {
     top: 48%;
+  }
+  .text-footer-3 {
+    top: 76%;
   }
 }
 
@@ -474,5 +519,8 @@
   }
   .text-footer-2 {
     top: 51%;
+  }
+  .text-footer-3 {
+    top: 85%;
   }
 }

@@ -1,4 +1,5 @@
-import scss from  '../scss/app.scss';
+// import scss from  '../scss/app.scss';
+import scss from  '../scss/author.scss';
 import imageCover from  '../images/m_cover.jpg';
 import images1 from  '../images/m_title_1.jpg';
 import images2 from  '../images/m_title_2.jpg';

@@ -1,0 +1,67 @@
+.text-footer-3 {
+    bottom: 18%;
+}
+
+.authorCarmen p {
+    display: inline;
+}
+
+.authorCarmen strong {
+    padding-left: 10px;
+}
+
+@media only screen and (max-width: 1600px) {
+    .text-footer-3 {
+        bottom: 3%;
+    }
+}
+
+@media only screen and (max-width: 1300px) {
+    .text-footer-3 {
+        top: 82%;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .text-footer-3 {
+        top: 78%;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .text-footer-3 {
+        top: 88%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .text-footer-3 {
+        top: 66%;
+    }
+}
+
+@media only screen and (max-width: 675px) {
+    .text-footer-3 {
+        top: 82%;
+    }
+}
+
+@media only screen and (max-width: 599px) {
+    .text-footer-3 {
+        top: 71%;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .text-footer-3 {
+        top: 76%;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .text-footer-3 {
+        top: 85%;
+    }
+}
+
+/*# sourceMappingURL=.demo.css.map */

@@ -1,4 +1,5 @@
-import '../scss/app.scss';
+import '../scss/.demo.scss';
+// import '../scss/app.scss';
 import imagesH from  '../images/mobile/m_header.jpg';
 
 import images1 from  '../images/mobile/m_article1.jpg';

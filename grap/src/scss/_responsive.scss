@@ -1,0 +1,365 @@
+@media only screen and (max-width: 1440px) {
+  .landing1 {
+    //How it Works
+    .works {
+      &-media {
+        left: 14%;
+      }
+      &-list {
+        right: 14%;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1369px) {
+  .landing1 {
+    //How it Works
+    .works {
+      &-media {
+        left: 10%;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1280px) {
+  .landing1 {
+    //How it Works
+    .works {
+      &-media {
+        left: 8%;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+ .landing1 {
+   //  Contact Form
+   .introduce-contact {
+     padding: 0 2%;
+   }
+   .introduce_site {
+     margin-left: 35px;
+   }
+   .contact_form {
+     width: 460px;
+   }
+   //Reason Why Join In
+   .reason-infoDetail {
+     padding: 0;
+   }
+   //How it Works
+   .works {
+     &-media {
+       left: 2%;
+     }
+     &-list {
+       right: 0;
+     }
+   }
+   //How it Works
+   .frequently_questions {
+     padding: 0 15%;
+   }
+   .question {
+     padding: 0 5%;
+   }
+   .question-title{
+     &::after {
+       right: 15px;
+     }
+   }
+ }
+}
+
+@media only screen and (max-width: 768px) {
+  .landing1 {
+    //  Contact Form
+    .introduce-contact {
+      height: 500px;
+    }
+    .introduce_site {
+      width: 500px;
+      margin-left: 100px;
+    }
+    .introduce_site-infoDetail {
+      line-height: 30px;
+    }
+    .contact_form {
+      position: absolute;
+      width: 90%;
+      left: 30px;
+      bottom: -20px;
+    }
+    //Reason Why Join In
+    .reason {
+      padding: 50px 2%;
+    }
+    .reason-infoDetail {
+      flex-direction: column;
+    }
+    .reason-salary, .reason-time, .reason-safe {
+      flex-basis: 100%;
+      padding: 0 30px;
+      margin-bottom: 30px;
+    }
+    .reason_image {
+      margin-bottom: 0;
+    }
+    .reason_title {
+      margin-top: 10px;
+    }
+    //Why do you have to wait
+    .why_wait-title {
+      padding: 0 40px;
+    }
+    .why_wait-description {
+      padding: 0 40px;
+      line-height: 30px;
+    }
+    //Questions Normal
+    .frequently_questions {
+      padding: 0 5%;
+    }
+    //How it Works
+    .works {
+      &-infomation {
+        margin: 0;
+        padding: 0 10px 140px;
+        min-height: 460px;
+      }
+      &-media {
+        bottom: 40px;
+        left: 20%;
+      }
+      &-list {
+        position: relative;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+      }
+      &-listItem {
+        padding: 0;
+        margin: 0 0 0 -5px;
+        &::before {
+          content: "\f061";
+          font-family: 'fontawesome';
+          background: none;
+          width: auto;
+          height: auto;
+          font-size: 20px;
+          line-height: 20px;
+          top: 5px;
+          left: 60px;
+        }
+        &:focus {
+          outline: none;
+        }
+      }
+      .works-listTitle {
+        opacity: 0;
+      }
+      .works-listDes {
+        display: none;
+      }
+      &-item1 {
+        margin-left: 60px;
+      }
+      &-item2 {
+        margin-left: -30px;
+      }
+      &-item4 {
+        margin-left: 10px;
+        &::before {
+          font-size: 0;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 599px) {
+  .landing1 {
+    //  Contact Form
+    .introduce_site {
+      width: 100%;
+      text-align: center;
+      margin:0 0 40px 0;
+      &-title {
+        font-size: 38px;
+      }
+    }
+    .contact_form {
+      left: 5px;
+      bottom: -275px;
+    }
+    //Why do you have to wait
+    .why_wait-title, .why_wait-description {
+      padding: 0 5px;
+    }
+    //How it Works
+    .works {
+      &-infomation {
+        min-height: 375px;
+      }
+      &-list {
+        margin-top: -200px;
+      }
+      &-media {
+        position:relative;
+        padding-bottom:56.25%;
+        padding-top:30px;
+        height:0;
+        overflow:hidden;
+        left: 0;
+        bottom: -220px;
+      }
+    }
+    .works-media iframe, .works-media object, .works-media embed {
+      position:absolute;
+      top:0;
+      left:0;
+      width:100%;
+      height:100%;
+    }
+    //App For Site
+    .appSite {
+      padding: 50px 20px 85px;
+    }
+    .appSite-description {
+      flex-direction: column;
+      align-items: center;
+    }
+    .appSite-Qcode {
+      margin-bottom: 30px;
+    }
+    .appSite-googlePlay {
+      margin-top: 30px;
+    }
+    .appSite-or {
+      &::before {
+        display: none;
+      }
+      &::after {
+        display: none;
+      }
+    }
+    //Questions Normal
+    .question-title {
+      &::after {
+        right: 0;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 375px) {
+ .landing1 {
+   //  Contact Form
+   .contact_form {
+     bottom: -340px;
+   }
+   .reason-title {
+     margin-top: 0;
+     font-size: 32px;
+   }
+   .why_wait-title, .appSite-title, .frequently_questions-title {
+     font-size: 32px;
+   }
+   //How it Works
+   .works {
+     &-list {
+       margin-top: -180px;
+       margin-left: -20px;
+     }
+     &-title {
+       font-size: 32px;
+     }
+     &-listItem {
+       &::before {
+         left: 45px;
+       }
+     }
+
+   }
+   //Questions Normal
+   .frequently_questions {
+     padding: 0 2%;
+   }
+ }
+}
+@media only screen and (max-width: 360px) {
+ .landing1 {
+   //  Contact Form
+   .contact_form {
+     left: 0;
+     bottom: -365px;
+   }
+   .reason-title {
+     margin-top: 0;
+     font-size: 32px;
+   }
+   .why_wait-title, .reason-title, .appSite-title, .frequently_questions-title {
+     font-size: 27px;
+   }
+   .reason_title {
+     font-size: 20px;
+   }
+   .reason_info {
+     font-size: 16px;
+   }
+   .works {
+     &-infomation {
+       min-height: 330px;
+     }
+     &-list {
+       margin-top: -160px;
+       margin-left: -10px;
+     }
+     &-item1 {
+       margin-left: 45px;
+     }
+     &-item2 {
+       margin-left: -25px;
+     }
+   }
+   //Questions Normal
+   .frequently_questions {
+     padding: 0 0;
+   }
+   .question {
+     padding: 0 12px;
+   }
+ }
+}
+@media only screen and (max-width: 320px) {
+  .landing1 {
+    //  Contact Form
+    .introduce_site-title {
+      font-size: 28px;
+    }
+    .contact_form {
+      left: 0;
+      bottom: -440px;
+    }
+    .works {
+      &-list {
+        margin-top: -150px;
+        margin-left: 15px;
+      }
+      &-item1 {
+        margin-left: 5px;
+      }
+    }
+    .why_wait-title, .reason-title, .appSite-title, .frequently_questions-title {
+      font-size: 25px;
+    }
+    .question-title {
+      font-size: 16px;
+    }
+  }
+}
